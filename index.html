@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Case Changer</title>
 
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    
+    <div>
+        <label for="casing">Select a casing change method</label>
+        <select name="casing" id="casing">
+            <option value="">(select one)</option>
+            <option value="1">All Caps</option>
+            <option value="2">All Lowercase</option>
+            <!-- <option value="3">Words Capitalized</option> -->
+            <!-- <option value="4">Sentences Capitalized</option> -->
+            <option value="5">SpongeBob Casing</option>
+            <option value="6">Reverse SpongeBob Casing</option>
+            <option value="7">Randomized Casing</option>
+        </select>
+        <label for="input">Text Input</label>
+        <textarea name="input" id="input" cols="100" rows="15"></textarea>
+        <button id="case-changer">Change Case</button>
+        <label for="output">Text Output</label>
+        <textarea name="output" id="output" cols="100" rows="15"></textarea>
+    </div>
 </body>
 </html>
